@@ -17,7 +17,7 @@ function Signup(){
             password: password.current.value
         })
         if(!error){
-            navigate("/");
+            navigate("/login");
         }
     }
 
